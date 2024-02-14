@@ -47,4 +47,4 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/matorg-acc/psalm-github-actions'
+  image: 'docker://ghcr.io/psalm/psalm-github-actions'
