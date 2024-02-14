@@ -15,7 +15,7 @@ LABEL "maintainer"="Matt Brown <github@muglug.com>"
 
 RUN apk add --no-cache tini git openssh-client
 
-COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2.2.23 /usr/bin/composer /usr/bin/composer
 
 RUN COMPOSER_ALLOW_SUPERUSER=1 \
     COMPOSER_HOME="/composer" \
