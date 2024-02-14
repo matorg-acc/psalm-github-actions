@@ -53,7 +53,7 @@ fi
 if [ -n "$INPUT_RELATIVE_DIR" ]
 then
     if [ -d "$INPUT_RELATIVE_DIR" ]; then
-        echo "changing directory into $INPUT_RELATIVE_DIR"
+        echo "TEST-TEST changing directory into $INPUT_RELATIVE_DIR"
         cd "$INPUT_RELATIVE_DIR"
     else
     	echo "given relative_dir not existing"
